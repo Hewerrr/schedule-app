@@ -8,7 +8,10 @@ import { NavController } from 'ionic-angular';
 export class HomePage {
 
   constructor(public navCtrl: NavController) {
+  }
 
+  public sayHello() {
+    console.log('Hello world!');
   }
 
 }
