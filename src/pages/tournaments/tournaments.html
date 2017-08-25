@@ -7,7 +7,7 @@
 
 <ion-content padding>
   <ion-list>
-    <ion-item *ngFor="let tournament of tournaments" (click)="itemTapped()" >
+    <ion-item *ngFor="let tournament of tournaments" (click)="itemTapped($event, tournament)" >
       {{tournament.name}}
     </ion-item>
   </ion-list>
